@@ -9,7 +9,7 @@ p,
 }
 
 body {
-  background: #ffe;
+  background: #f7c5cc;
   font: 14px/1.4 "微软雅黑", "宋体", sans-serif;
 }
 
@@ -31,7 +31,7 @@ body {
   top: 80px;
   display: none;
   font-size: 13px;
-  color: #228567;
+  color: #cc313d;
 }
 
 #clock-box {
