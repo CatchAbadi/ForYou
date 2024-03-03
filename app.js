@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       .toString()
       .padStart(2, "0");
 
-    const result = `第 <span class="digit">${days}</span> 天 <span class="digit">${hours}</span> 小时 <span class="digit">${minutes}</span> 分钟 <span class="digit">${seconds}</span> 秒`;
+    const result = ` <span class="digit">${days}</span> Days <span class="digit">${hours}</span> Hours <span class="digit">${minutes}</span> Minutes <span class="digit">${seconds}</span> Seconds`;
     document.getElementById("clock").innerHTML = result;
   };
 
